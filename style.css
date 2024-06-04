@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
+}
+
+.primary-navigation ul>li>a {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #000;
+    transition: all .3s ease;
+    line-height: normal;
+}
+
+.vv {
+    transition: all 0.3s ease;
+}
+
+.vv2 {
+    padding: 14px 0 !important;
+    transition: all 0.4s ease;
+}
+
+.nav-link.active {
+    color: #0DCAF0 !important;
+    background-color: transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+a:link {
+    text-decoration: none
+}
+
+.btn-lg {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+::placeholder {
+    color: red;
+    font-size: 14px;
+}
+
+ul.dd a {
+    color: #222;
+}
+
+.icon-circle {
+    transition: all 0.3s ease;
+    width: 50px;
+    margin: 0 5px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.icon-circle:hover {
+    background-color: #0DCAF0;
+    box-shadow: 0px 0px 5px 8px rgba(0, 0, 0, 0.05);
+    border: #0DCAF0;
+}
+
+.icon-circle:hover i {
+    color: #fff;
+}
+
+.icon-circle a i {
+    color: #ccc;
+}
+
+.aa .icon-circle {
+    border: 1px solid #bbb;
+}
+
+.aa .icon-circle:hover {
+    border: #0DCAF0;
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block !important;
+    width: auto;
+}
+
+.author-img {
+    width: 100%;
+    z-index: 99999999999;
+    position: absolute;
+    top: 0;
+}
+.info-item{
+    background-color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+.info-item:hover{
+    background-color: #fff;
+    transform: rotate(2deg);
+}
+.author-img img {
+    width: 120px !important;
+    height: auto;
+    border-radius: 100%;
+}
+
+.testi-text {
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.testi-heading {
+    font-weight: 700;
+}
+
+.hh {
+    letter-spacing: 5px;
+}
+
+
+.kk {
+    height: 500px;
+}
+
+.owl-carousel {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.pp a {
+    position: relative;
+    top: 0;
+    transition: top ease 0.3s;
+}
+
+.pp a:hover {
+    top: -15px;
+}
+
+.card {
+    border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
